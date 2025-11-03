@@ -14,8 +14,7 @@ export default function Page() {
     </h1>
     
     <p className="text-xl text-neutral-600 dark:text-neutral-300 max-w-2xl mx-auto leading-relaxed">
-      I'm an 18-year-old Full-Stack Developer passionate about scalable web applications and modern web technologies. My main focuses are developing microservices architectures, clean code principles, and end-to-end software solutions.
-    </p>
+      I'm a Full-Stack Developer passionate about building scalable web applications and leveraging modern web technologies. My main focuses are developing microservice architectures, applying clean code principles, and delivering end-to-end software solutions.    </p>
   </div>
 
   <div className="grid md:grid-cols-2 gap-8">
