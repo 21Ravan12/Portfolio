@@ -13,8 +13,7 @@ export default function AboutPage() {
         </h1>
         
         <p className="text-xl text-neutral-600 dark:text-neutral-300 max-w-2xl mx-auto leading-relaxed">
-          I'm Ravan, an 18-year-old full-stack developer passionate about creating innovative web solutions and scalable applications.
-        </p>
+          I'm Ravan, a full-stack developer passionate about creating innovative web solutions and scalable applications.        </p>
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 mb-12">
