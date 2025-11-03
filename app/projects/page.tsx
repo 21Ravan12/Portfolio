@@ -39,11 +39,11 @@ export default function ProjectsPage() {
 },
 {
   id: 2,
-  name: "Real-time Chat Application",
-  description: "A real-time messaging application with instant updates, private rooms, and user presence indicators using Socket.io.",
+  name: "RealTalk - Enterprise-Grade Messaging Platform",
+  description: "A production-ready enterprise messaging solution evolved from Chat App (v2), featuring advanced security, real-time communication, and scalable architecture.",
   type: "full-stack",
-  technologies: ["Node.js", "Socket.io", "Express", "MongoDB", "HTML", "CSS", "JavaScript"],
-  githubUrl: "https://github.com/21Ravan12/Chat-app-v2.1.5",
+  technologies: ["Node.js", "Express.js","Socket.io","MongoDB","Redis","PostgreSQL","HTML","CSS","JavaScript","Docker"],
+  githubUrl: "https://github.com/21Ravan12/RealTalk",
   liveUrl: "#",
   isFeatured: true
 },
@@ -89,6 +89,16 @@ export default function ProjectsPage() {
 },
 {
   id: 7,
+  name: "Real-time Chat Application",
+  description: "A real-time messaging application with instant updates, private rooms, and user presence indicators using Socket.io.",
+  type: "full-stack",
+  technologies: ["Node.js", "Socket.io", "Express", "MongoDB", "HTML", "CSS", "JavaScript"],
+  githubUrl: "https://github.com/21Ravan12/Chat-app-v2.1.5",
+  liveUrl: "#",
+  isFeatured: true
+},
+{
+  id: 8,
   name: "MedChain Admin Dashboard",
   description: "Administrative dashboard for healthcare management system with data visualization and user management.",
   type: "frontend",
@@ -98,7 +108,7 @@ export default function ProjectsPage() {
   isFeatured: true
 },
 {
-  id: 8,
+  id: 9,
   name: "E-commerce API (Module-based)",
   description: "Modular e-commerce API with separated concerns for better maintainability and scalability.",
   type: "backend",
@@ -107,7 +117,6 @@ export default function ProjectsPage() {
   liveUrl: "#",
   isFeatured: false
 }
-    // Diğer projelerinizi buraya ekleyin
     ];
     
     setProjects(sampleProjects);
@@ -278,15 +287,26 @@ export default function ProjectsPage() {
   )
 }
 
-// Proje kartı bileşeni
+// Add this helper function
+const getProjectIcon = (type: string, technologies: string[]) => {
+  if (type === 'backend') {
+    return '⚙️';
+  }
+  if (type === 'frontend') {
+    return '🎨';
+  }
+  if (type === 'full-stack') {
+    return '🌐';
+  }
+  return '💻';
+};
+
 function ProjectCard({ project }: { project: Project }) {
   return (
     <div className="bg-white dark:bg-neutral-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-neutral-200 dark:border-neutral-700 h-full flex flex-col">
       <div className="h-48 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 flex items-center justify-center">
-        <div className="w-16 h-16 rounded-lg bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
-          <svg className="w-8 h-8 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
-          </svg>
+        <div className="text-6xl">
+          {getProjectIcon(project.type, project.technologies)}
         </div>
       </div>
       <div className="p-6 flex-grow">
