@@ -13,7 +13,7 @@ export default function AboutPage() {
         </h1>
         
         <p className="text-xl text-neutral-600 dark:text-neutral-300 max-w-2xl mx-auto leading-relaxed">
-          I'm Ravan, a full-stack developer passionate about creating innovative web solutions and scalable applications.        </p>
+          I'm Ravan, a full-stack developer passionate about building modern web applications with React, Node.js, and TypeScript        </p>
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -28,10 +28,10 @@ export default function AboutPage() {
           
           <div className="space-y-4">
             <p className="text-neutral-700 dark:text-neutral-300">
-              My journey in web development started when I was 16 years old. Since then, I've been constantly learning and improving my skills in both frontend and backend technologies.
+              I started coding at 16 and have been building full-stack projects ever since. I love turning ideas into functional applications and learning new technologies along the way.
             </p>
             <p className="text-neutral-700 dark:text-neutral-300">
-              I believe in the power of clean code, user-centered design, and continuous learning to create digital experiences that make a difference.
+              What excites me most is taking an idea from concept to a working application that people can actually use.
             </p>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function AboutPage() {
           
           <div className="space-y-4">
             <p className="text-neutral-700 dark:text-neutral-300">
-              I focus on building scalable, maintainable applications with clean architecture and modern development practices.
+              I focus on writing clean, maintainable code and building applications that are both functional and user-friendly.
             </p>
             <p className="text-neutral-700 dark:text-neutral-300">
               Whether working on frontend interfaces or backend services, I prioritize performance, accessibility, and user experience.
@@ -79,15 +79,7 @@ export default function AboutPage() {
         </li>
         <li className="flex items-center">
           <div className="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
-          <span className="text-neutral-700 dark:text-neutral-300">Vue.js</span>
-        </li>
-        <li className="flex items-center">
-          <div className="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
           <span className="text-neutral-700 dark:text-neutral-300">Tailwind CSS</span>
-        </li>
-        <li className="flex items-center">
-          <div className="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
-          <span className="text-neutral-700 dark:text-neutral-300">Redux</span>
         </li>
       </ul>
     </div>
@@ -102,19 +94,11 @@ export default function AboutPage() {
         </li>
         <li className="flex items-center">
           <div className="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
-          <span className="text-neutral-700 dark:text-neutral-300">Java & Spring Boot</span>
+          <span className="text-neutral-700 dark:text-neutral-300">REST APIs</span>
         </li>
         <li className="flex items-center">
           <div className="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
-          <span className="text-neutral-700 dark:text-neutral-300">Python (Flask & Django)</span>
-        </li>
-        <li className="flex items-center">
-          <div className="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
-          <span className="text-neutral-700 dark:text-neutral-300">Microservices Architecture</span>
-        </li>
-        <li className="flex items-center">
-          <div className="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
-          <span className="text-neutral-700 dark:text-neutral-300">REST & GraphQL APIs</span>
+          <span className="text-neutral-700 dark:text-neutral-300">Socket.io</span>
         </li>
       </ul>
     </div>
@@ -129,7 +113,7 @@ export default function AboutPage() {
         </li>
         <li className="flex items-center">
           <div className="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
-          <span className="text-neutral-700 dark:text-neutral-300">PostgreSQL & MySQL</span>
+          <span className="text-neutral-700 dark:text-neutral-300">PostgreSQL</span>
         </li>
         <li className="flex items-center">
           <div className="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
@@ -159,7 +143,7 @@ export default function AboutPage() {
         
         <div className="space-y-4">
           <p className="text-neutral-700 dark:text-neutral-300">
-            Apart from coding, my greatest passions are researching new technologies, writing, and improving myself in general culture.
+            When I'm not coding, I enjoy learning about new technologies, writing, and expanding my knowledge in various fields.
           </p>
           <p className="text-neutral-700 dark:text-neutral-300">
             I see technology as a tool to create solutions that will benefit people, and I am always open to learning new things.
