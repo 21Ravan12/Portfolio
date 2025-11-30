@@ -14,7 +14,7 @@ export default function Page() {
     </h1>
     
     <p className="text-xl text-neutral-600 dark:text-neutral-300 max-w-2xl mx-auto leading-relaxed">
-      I'm a Full-Stack Developer passionate about building scalable web applications and leveraging modern web technologies. My main focuses are developing microservice architectures, applying clean code principles, and delivering end-to-end software solutions.    </p>
+      I'm a Full-Stack Developer passionate about building modern web applications. I enjoy creating complete solutions from frontend to backend using React, Node.js, and TypeScript</p>
   </div>
 
   <div className="grid md:grid-cols-2 gap-8">
@@ -34,7 +34,7 @@ export default function Page() {
               <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
             </svg>
           </div>
-          <p className="text-neutral-700 dark:text-neutral-300"><span className="font-semibold">Frontend:</span> Modern, responsive and user-friendly interfaces with React, Next.js, Vue.js, TypeScript, Tailwind CSS</p>
+          <p className="text-neutral-700 dark:text-neutral-300"><span className="font-semibold">Frontend:</span>Modern, responsive interfaces with React, Next.js, TypeScript, and Tailwind CSS</p>
         </div>
         
         <div className="flex items-start">
@@ -43,7 +43,7 @@ export default function Page() {
               <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
             </svg>
           </div>
-          <p className="text-neutral-700 dark:text-neutral-300"><span className="font-semibold">Backend:</span> High-performance API and microservice architectures with Node.js, Express, Spring Boot (Java), Flask, and Django</p>
+          <p className="text-neutral-700 dark:text-neutral-300"><span className="font-semibold">Backend:</span>API development with Node.js, Express, and RESTful principles</p>
         </div>
         
         <div className="flex items-start">
@@ -52,7 +52,7 @@ export default function Page() {
               <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
             </svg>
           </div>
-          <p className="text-neutral-700 dark:text-neutral-300"><span className="font-semibold">Database:</span> Data modeling and management with MongoDB, PostgreSQL, MySQL, and SQLite</p>
+          <p className="text-neutral-700 dark:text-neutral-300"><span className="font-semibold">Database:</span>Database design with MongoDB and PostgreSQL</p>
         </div>
         
         <div className="flex items-start">
@@ -89,7 +89,7 @@ export default function Page() {
             <div>
               <h3 className="font-semibold text-lg mb-1">E-commerce API (Role-Based)</h3>
               <p className="text-neutral-600 dark:text-neutral-400">
-                A full-featured e-commerce API with role-based authentication. (JavaScript)
+                E-commerce backend with role-based access control. (Node.js, MongoDB)
               </p>
             </div>
           </div>
@@ -101,17 +101,17 @@ export default function Page() {
         >
           <div className="flex items-start">
             <div className="w-12 h-12 rounded-lg bg-purple-50 dark:bg-purple-900/20 flex items-center justify-center mr-4 group-hover:scale-105 transition-transform">
-<svg className="w-6 h-6 text-purple-600 dark:text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-  <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" />
-  <path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z" />
-  <path d="M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13" />
-  <path d="M16 3.13C16.8604 3.3503 17.623 3.8507 18.1676 4.55231C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89317 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88" />
-</svg>
+              <svg className="w-6 h-6 text-purple-600 dark:text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" />
+                <path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z" />
+                <path d="M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13" />
+                <path d="M16 3.13C16.8604 3.3503 17.623 3.8507 18.1676 4.55231C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89317 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88" />
+              </svg>
             </div>
             <div>
               <h3 className="font-semibold text-lg mb-1">Freelance Platform</h3>
               <p className="text-neutral-600 dark:text-neutral-400">
-                A platform where users can publish projects and receive offers. (TypeScript)
+                Full-stack platform connecting freelancers with clients. (React, Node.js, TypeScript)
               </p>
             </div>
           </div>
