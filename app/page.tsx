@@ -29,23 +29,49 @@ export default function Page() {
           I build complete web applications from frontend to backend, with a focus on:
         </p>
 <div className="grid sm:grid-cols-2 gap-4">
-  {[
-    ["Clean Architecture", "Maintainable, scalable code structure"],
-    ["Production Deployment", "Railway, Vercel, cloud integration"],
-    ["Real-Time Systems", "WebSockets, live updates, presence"],
-    ["Testing & Quality", "Jest, Cypress, CI/CD ready"],
-  ].map(([title, desc]) => (
-    <div key={title} className="flex items-start">
-<div className="flex items-center gap-3">
-  <div className="w-6 h-6 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center flex-shrink-0">
-    <CheckIcon className="w-3 h-3 text-blue-600" />
-  </div>
-  <p className="text-neutral-700 dark:text-neutral-300">
-    <span className="font-semibold">Clean Architecture:</span> Maintainable, scalable code structure
-  </p>
-</div>
+  <div className="flex items-start">
+    <div className="flex items-center gap-3">
+      <div className="w-6 h-6 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center flex-shrink-0">
+        <CheckIcon className="w-3 h-3 text-blue-600" />
+      </div>
+      <p className="text-neutral-700 dark:text-neutral-300">
+        <span className="font-semibold">Clean Architecture:</span> Maintainable, scalable code structure
+      </p>
     </div>
-  ))}
+  </div>
+
+  <div className="flex items-start">
+    <div className="flex items-center gap-3">
+      <div className="w-6 h-6 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center flex-shrink-0">
+        <CheckIcon className="w-3 h-3 text-blue-600" />
+      </div>
+      <p className="text-neutral-700 dark:text-neutral-300">
+        <span className="font-semibold">Production Deployment:</span> Railway, Vercel, cloud integration
+      </p>
+    </div>
+  </div>
+
+  <div className="flex items-start">
+    <div className="flex items-center gap-3">
+      <div className="w-6 h-6 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center flex-shrink-0">
+        <CheckIcon className="w-3 h-3 text-blue-600" />
+      </div>
+      <p className="text-neutral-700 dark:text-neutral-300">
+        <span className="font-semibold">Real-Time Systems:</span> WebSockets, live updates, presence
+      </p>
+    </div>
+  </div>
+
+  <div className="flex items-start">
+    <div className="flex items-center gap-3">
+      <div className="w-6 h-6 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center flex-shrink-0">
+        <CheckIcon className="w-3 h-3 text-blue-600" />
+      </div>
+      <p className="text-neutral-700 dark:text-neutral-300">
+        <span className="font-semibold">Testing & Quality:</span> Jest, Cypress, CI/CD for stable builds
+      </p>
+    </div>
+  </div>
 </div>
       </div>
 
