@@ -43,7 +43,7 @@ export default function ProjectsPage() {
         type: "full-stack",
         technologies: ["Node.js", "Express", "Socket.io", "React", "MongoDB", "Redis", "Docker", "Railway", "Vercel"],
         githubUrl: "https://github.com/21Ravan12/Real-Time-Chat-Application",
-        liveUrl: "https://realtalk.vercel.app",
+        liveUrl: "https://real-time-chat-application-tau-seven.vercel.app",
         isFeatured: true
       },
       {
