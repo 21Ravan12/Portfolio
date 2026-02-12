@@ -112,7 +112,7 @@ export default function ProjectsPage() {
     <section className="max-w-6xl mx-auto px-4 py-12">
       {/* Hero Section - Sade, etkileyici */}
       <div className="text-center mb-16">
-        <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 mb-6">
+        <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 mb-6">
           <RocketIcon className="w-10 h-10 text-blue-600 dark:text-blue-400" />
         </div>
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight bg-gradient-to-r from-neutral-800 to-neutral-600 dark:from-neutral-100 dark:to-neutral-300 bg-clip-text text-transparent mb-6">
