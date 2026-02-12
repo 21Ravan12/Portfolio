@@ -62,8 +62,8 @@ export function RocketIcon(props: IconProps) {
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M5 13c0 4 6 6 7 6s7-2 7-6V5c0-1-1-2-2-2h-3l-2-2-2 2H7c-1 0-2 1-2 2v8z" />
-      <path d="M9 13h6" />
+      <path d="M12 2c-1 1.5-2 3-2 3H8c-1 0-2 1-2 2v8c0 4 6 6 6 6s6-2 6-6V7c0-1-1-2-2-2h-2s-1-1.5-2-3z" />
+      <path d="M10 13h4" />
     </svg>
   );
 }
